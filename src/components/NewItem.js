@@ -83,7 +83,7 @@ function NewItem(props) {
           <option value="Inne">Inne</option>
         </select>
         <div className="button-container">
-          <button type="submit">Add Item</button>
+          <button type="submit">Dodaj</button>
         </div>
       </form>
     </div>
