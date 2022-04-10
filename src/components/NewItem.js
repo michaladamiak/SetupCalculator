@@ -44,12 +44,11 @@ function NewItem(props) {
   }
 
   return (
-    <div className='details-form-container'>
-      {/* <h1>Poniższy formularz pozwala policzyć cenę zestawu komputerowego.</h1> */}
+    <div className="details-form-container">
       <form className="details-form" onSubmit={submitHandler}>
         <input
           type="text"
-          placeholder="Title"
+          placeholder="Nazwa"
           className="form-input"
           onChange={titleChangeHandler}
           value={enteredTitle}
@@ -57,7 +56,7 @@ function NewItem(props) {
         />
         <input
           type="text"
-          placeholder="Details"
+          placeholder="Opis"
           className="form-input"
           onChange={detailsChangeHandler}
           value={enteredDetails}
@@ -67,7 +66,7 @@ function NewItem(props) {
           type="number"
           min="0.01"
           step="0.01"
-          placeholder="Price"
+          placeholder="Cena"
           className="form-input"
           onChange={priceChangeHandler}
           value={enteredPrice}

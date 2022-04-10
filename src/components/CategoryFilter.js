@@ -1,3 +1,4 @@
+import filter from "../img/filter.png";
 import "./CategoryFilter.css";
 
 function CategoryFilter(props) {
@@ -7,7 +8,9 @@ function CategoryFilter(props) {
 
   return (
     <div className="category-filter-container">
-      <label>Filtruj: </label>
+      <label className="filter-icon">
+        <img src={filter} alt="filter"></img>
+      </label>
       <select onChange={categorySelectHandler}>
         <option value="Dowolna kategoria">Dowolna kategoria</option>
         <option value="Podzespoły komputera">Podzespoły komputera</option>

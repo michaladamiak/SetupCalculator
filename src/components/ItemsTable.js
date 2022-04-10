@@ -14,11 +14,11 @@ function ItemsTable(props) {
     <div className="table-contener">
       <table className="main-table">
         <thead>
-          <tr className="main-table-firstrow">
-            <th className="main-table-header">Item</th>
-            <th className="main-table-header">Details</th>
-            <th className="main-table-header">Price</th>
-            <th className="main-table-header">Category</th>
+          <tr>
+            <th className="main-table-header">Nazwa</th>
+            <th className="main-table-header">Opis</th>
+            <th className="main-table-header">Cena</th>
+            <th className="main-table-header">Kategoria</th>
           </tr>
         </thead>
         <tbody>
