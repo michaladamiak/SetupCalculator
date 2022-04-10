@@ -1,0 +1,29 @@
+.main-table-row {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(255,255,255);
+    min-width: 150px;
+}
+
+.delete-button {
+    margin: 0 0 0 15px;
+    width: 30px;
+}
+
+.delete-button:hover {
+    cursor: pointer;
+}
+
+.delete-button img {
+    height: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .main-table-row {
+        min-width: 60px;
+        padding: 5px;
+    }
+
+    .delete-button img {
+        height: 15px;
+    }
+}

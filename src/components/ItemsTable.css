@@ -1,0 +1,35 @@
+.main-table {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 900px;
+    background-color: rgb(39, 44, 44);
+    padding: 15px 0 50px 45px;
+    margin: -15px 0 0 0;
+    border-radius: 10px;
+
+}
+
+.main-table-header {
+    width: 150px;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.empty-comment {
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid rgb(255,255,255);
+}
+
+@media only screen and (max-width: 900px) {
+    .main-table {
+        width: 350px;
+        font-size: 12px;
+        padding: 15px 0 20px 10px;
+        margin: -15px 0 0 0;
+    }
+
+    .main-table-header {
+        padding: 10px;
+    }
+}
