@@ -25,6 +25,7 @@
 
     .delete-button {
         width: 15px;
+        margin: 0;
     }
 
     .delete-button img {
