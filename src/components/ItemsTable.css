@@ -23,13 +23,21 @@
 
 @media only screen and (max-width: 900px) {
     .main-table {
-        width: 350px;
         font-size: 12px;
         padding: 15px 0 20px 10px;
         margin: -15px 0 0 0;
     }
 
     .main-table-header {
-        padding: 10px;
+        width: 0;
+        padding: 10px 0;
+    }
+
+    .table-contener {
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
