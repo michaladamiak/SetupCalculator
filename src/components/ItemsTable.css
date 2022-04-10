@@ -40,4 +40,8 @@
         justify-content: center;
         align-items: center;
     }
+
+    .head-row {
+        max-width: 500px;
+    }
 }

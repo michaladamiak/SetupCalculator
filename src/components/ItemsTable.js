@@ -13,7 +13,7 @@ function ItemsTable(props) {
   return (
     <div className="table-contener">
       <table className="main-table">
-        <thead>
+        <thead className="head-row">
           <tr className="main-table-firstrow">
             <th className="main-table-header">Item</th>
             <th className="main-table-header">Details</th>

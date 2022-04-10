@@ -7,7 +7,7 @@ function Items(props) {
   }
 
   return (
-    <tr>
+    <tr className="row">
       <td className="main-table-row">{props.title}</td>
       <td className="main-table-row">{props.details}</td>
       <td className="main-table-row">{props.price}</td>
