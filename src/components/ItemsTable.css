@@ -26,6 +26,7 @@
         font-size: 12px;
         padding: 15px 0 20px 10px;
         margin: -15px 0 0 0;
+        width: 100%;
     }
 
     .main-table-header {
@@ -34,14 +35,10 @@
     }
 
     .table-contener {
-        max-width: 500px;
+        /* max-width: 500px; */
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .head-row {
-        max-width: 500px;
     }
 }
