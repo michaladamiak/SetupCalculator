@@ -20,7 +20,11 @@
 @media only screen and (max-width: 900px) {
     .main-table-row {
         min-width: 0;
-        padding: 0;
+        padding: 10px 0;
+    }
+
+    .delete-button {
+        width: 15px;
     }
 
     .delete-button img {

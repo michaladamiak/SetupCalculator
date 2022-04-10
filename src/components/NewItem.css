@@ -30,6 +30,7 @@
 .details-form select {
     width: 242px;
     height: 32px;
+    -webkit-appearance:none;
 }
 
 .details-form input:focus{
@@ -75,5 +76,6 @@
     .details-form {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 }
