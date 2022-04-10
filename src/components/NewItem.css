@@ -26,11 +26,13 @@
     height: 30px;
     font-size: 20px;
     margin: 3px 0;
+    -webkit-appearance:none;
 }
 .details-form select {
     width: 242px;
     height: 32px;
     -webkit-appearance:none;
+    background-color: rgb(255, 255, 255);
 }
 
 .details-form input:focus{
